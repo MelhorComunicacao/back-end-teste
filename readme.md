@@ -1,4 +1,4 @@
-# Teste de Back-End (NodeJS)
+# Teste de Back-End (NodeJS/Java)
 ### Proposta
 Uma empresa vai lançar um novo app para venda de celulares e com isso gostaríamos que você construísse uma API para gerenciar o cadastro de novos celulares.
 
@@ -28,3 +28,8 @@ O sistema deve validar todas as entradas, tanto no backend quanto no frontend.
 
 O backend deve retornar um resposta com o código HTTP adequado, de acordo com o resultado da validação, além de incluir uma mensagem para cada violação.
 
+### Outros testes
+
+Teste Front-End Dev (https://github.com/melhorcom/front-end-teste)
+
+Teste Full-Stack Dev (https://github.com/melhorcom/full-stack-teste)
