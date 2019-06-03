@@ -1,9 +1,9 @@
-# Teste de Full-Stack / Back-End / Front-End (NodeJS / Java)
+# Teste de Back-End (NodeJS)
 ### Proposta
 Uma empresa vai lançar um novo app para venda de celulares e com isso gostaríamos que você construísse uma API para gerenciar o cadastro de novos celulares.
 
 ### Solução
-A solução consistirá em criar uma API REST escrita em Java (ou NodeJS) e uma aplicação frontend usando React.
+A solução consistirá em criar uma API REST escrita em Java (ou NodeJS).
 
 ### Descrição do modelo
 | Campo | Tipo | Descrição | Restrições |
@@ -28,4 +28,3 @@ O sistema deve validar todas as entradas, tanto no backend quanto no frontend.
 
 O backend deve retornar um resposta com o código HTTP adequado, de acordo com o resultado da validação, além de incluir uma mensagem para cada violação.
 
-O frontend deve validar os campos à medida que o usuário preenche o formulário, e exibir as mensagens de erro correspondentes.
