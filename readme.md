@@ -1,9 +1,9 @@
-# Teste de Back-End (NodeJS / Java)
+# Teste de Back-End (NodeJS)
 ### Proposta
 Uma empresa vai lançar um novo app para venda de celulares e com isso gostaríamos que você construísse uma API para gerenciar o cadastro de novos celulares.
 
 ### Solução
-A solução consistirá em criar uma API REST escrita em Java (ou NodeJS) e uma aplicação frontend usando React.
+A solução consistirá em criar uma API REST escrita em NodeJS e uma aplicação frontend usando React.
 
 ### Descrição do modelo
 | Campo | Tipo | Descrição | Restrições |
