@@ -1,3 +1,4 @@
+
 # Teste de Back-End (NodeJS)
 
 ### Proposta
@@ -35,6 +36,9 @@ Deve ser possível:
 - **Ver** um celular;
 - **Deletar** um celular;
 - **Atualizar** um celular;
+- **Toda requisição deve receber no cabeçalho(header) um cpf (não nulo): 
+ { cpf : ******* }**
+
 
 ### Validação
 
