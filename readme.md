@@ -34,7 +34,7 @@ Uma empresa vai lançar um novo app para venda de celulares e com isso gostaría
             
 ### Ações que devem ser disponibilizadas para os consumidores da API
 
-- POST /cellphones 
+```POST /cellphones ```
 
   ENTRADA
     { 
