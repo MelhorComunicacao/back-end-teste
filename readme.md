@@ -18,19 +18,18 @@ Uma empresa vai lançar um novo app para venda de celulares e com isso gostaría
 
 | Campo     | Tipo        | Descrição                          | Restrições                                                                                        |
 | --------- | ----------- | ---------------------------------- | ------------------------------------------------------------------------------------------------- |
-| id        | uuid        | Código de identificação do celular | Alfanumérico de 8 caracteres. Não deve se repetir.     
+| id        | uuid        | Código de identificação do celular | Alfanumérico de 8 caracteres. Não deve se repetir. |
 |
-| model     | text        | Nome do modelo do celular          | Alfanumérico com no mínimo 2 e no máximo 255 caracteres, desprezando espaço em branco.       
+| model     | text        | Nome do modelo do celular          | Alfanumérico com no mínimo 2 e no máximo 255 caracteres, desprezando espaço em branco. |   
 |
-| price     | decimal     | Preço do celular                   | Número positivo.
+| price     | decimal     | Preço do celular                   | Número positivo. |
 |
-| brand     | text        | Nome da marca do celular           | Alfanumérico com no mínimo 2 e no máximo 255 caracteres, desprezando espaço em branco.       
+| brand     | text        | Nome da marca do celular           | Alfanumérico com no mínimo 2 e no máximo 255 caracteres, desprezando espaço em branco. |      
 |
-| start_date| Date        | Data de início da venda do celular | Data no formato “dd/MM/yyyy” (31/12/2018). A data de início deve ser posterior ao dia 25/12/2018. 
+| start_date| Date        | Data de início da venda do celular | Data no formato “dd/MM/yyyy” (31/12/2018). A data de início deve ser posterior ao dia 25/12/2018. | 
+| end_date  | Date        | Data de fim da venda do celular    | Data no formato “dd/MM/yyyy” (31/12/2018). A data de fim deve ser posterior a data de início.|
 |
-| end_date  | Date        | Data de fim da venda do celular    | Data no formato “dd/MM/yyyy” (31/12/2018). A data de fim deve ser posterior a data de início.  
-|
-| available_colors  | Array  | Cor do celular                  | Essa campo admite apenas os seguintes valores: black, white, gold, gay, pink.      
+| available_colors  | Array  | Cor do celular                  | Essa campo admite apenas os seguintes valores: black, white, gold, gay, pink.|    
             
             
 ### Ações que devem ser disponibilizadas para os consumidores da API
