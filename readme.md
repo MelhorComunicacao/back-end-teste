@@ -23,7 +23,7 @@ Uma empresa vai lançar um novo app para venda de celulares e com isso gostaría
 | model     | text        | Nome do modelo do celular          | Alfanumérico com no mínimo 2 e no máximo 255 caracteres, desprezando espaço em branco.            |
 | price     | decimal     | Preço do celular                   | Número positivo  
 |
-| brand     | text        | Nome da marca do celular           | Alfanumérico com no mínimo 2 e no máximo 255 caracteres, desprezando espaço em branco.            |
+| brand     | text        | Nome da marca do celular           | Alfanumérico com no mínimo 2 e no máximo 255 caracteres, desprezando espaço em branco.           
 |
 | start_date| Date        | Data de início da venda do celular | Data no formato “dd/MM/yyyy” (31/12/2018). A data de início deve ser posterior ao dia 25/12/2018. |
 | end_date  | Date        | Data de fim da venda do celular    | Data no formato “dd/MM/yyyy” (31/12/2018). A data de fim deve ser posterior a data de início.     |
