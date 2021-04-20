@@ -34,41 +34,42 @@ Uma empresa vai lançar um novo app para venda de celulares e com isso gostaría
             
 ### Ações que devem ser disponibilizadas para os consumidores da API
 
-```POST /cellphones ```
+
+```POST /cellphones```
 
   ENTRADA
-    { 
-       id: '34bd8824-a1f0-11eb-bcbc-0242ac130002'
+  ```{ ```
+       ```id: '34bd8824-a1f0-11eb-bcbc-0242ac130002'```
        brand : 'motorola'
        model : 'one',
        price : 1000, 
        start_date: 'dd/MM/yyyy',
        end_date: 'dd/MM/yyyy',
        available_colors: [  black, white, gold, gay, pink ]
-     }
+     } 
 
   SAÍDA
 
     Deve retornar um 200 com o registro criado em formato json
 
-- PATCH /cellphones/:id
+```PATCH /cellphones/:id```
 
   ENTRADA 
-
-   {
+  
+```{
       brand : 'motorola'
       model : 'one',
       price : 1000, 
       start_date: 'dd/MM/yyyy',
       end_date: 'dd/MM/yyyy',
       available_colors: [  black, white, gold, gay, pink ]
-   }
+   }```
 
   SAÍDA
 
     Deve retornar um 200  indicando que as informações foram alteradas com sucesso
 
-- DELETE /cellphones/:id
+```DELETE /cellphones/:id```
 
   SAÍDA 
 
